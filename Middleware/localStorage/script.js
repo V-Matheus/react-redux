@@ -9,7 +9,8 @@ function getLocalStorage(key, initial) {
 const initialState = {
   loading: false,
   data: getLocalStorage('data', null),
-  error: null,
+  error: null, 
+  
 };
 
 function reducer(state = initialState, action) {
