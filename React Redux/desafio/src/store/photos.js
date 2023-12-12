@@ -20,6 +20,8 @@ const photos = createAsyncSlice({
   }),
 });
 
+
+
 const { addPhotos } = photos.actions;
 export const fetchPhotos = photos.asyncAction;
 
